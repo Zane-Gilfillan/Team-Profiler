@@ -1,0 +1,23 @@
+{
+  "name": "team-profiler",
+  "version": "1.0.0",
+  "description": "quick app to build/save employee info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zane-Gilfillan/Team-Profiler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zane-Gilfillan/Team-Profiler/issues"
+  },
+  "homepage": "https://github.com/Zane-Gilfillan/Team-Profiler#readme",
+  "dependencies": {
+    "inquirer": "^8.1.0",
+    "jest": "^27.0.4"
+  }
+}
