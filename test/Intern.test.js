@@ -1,5 +1,6 @@
 const Intern = require('../lib/Intern');
 
+
 describe("Intern", () => {
 
     describe("Initalization", () => {
