@@ -1,22 +1,12 @@
-// Include class files
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 
-// Include node modules
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-// Declare global variables
 var teamName;
 const team = {manager: {}, engineers: [], interns: []};
-
-//Test Data
-// const team = {
-//     manager: new Manager("Amanda","The Manager","amanda@example.com",123),
-//     engineers: [new Engineer("Roger","Senior Engineer","roger@example.com","rogerdev")],
-//     interns: [new Intern("Lil Johnny","Assistant","johnny@example.com","UNC")]
-// }
 
 var managerTemplate;
 var engineerTemplate;
